@@ -34,6 +34,7 @@ The intended shape is:
   quantum-compatible-local-dynamics-from-finite-capacity-causal-networks/
   matter-gauge-observables-from-finite-capacity-causal-networks/
   particle-excitation-observables-from-finite-capacity-causal-networks/
+  standard-model-candidate-observables-from-finite-capacity-causal-networks/
   unified-field-theory-codex/
 ```
 
@@ -56,6 +57,7 @@ git clone https://github.com/Unified-Field-Theory-Research/gravitational-dynamic
 git clone https://github.com/Unified-Field-Theory-Research/quantum-compatible-local-dynamics-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/matter-gauge-observables-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/particle-excitation-observables-from-finite-capacity-causal-networks.git
+git clone https://github.com/Unified-Field-Theory-Research/standard-model-candidate-observables-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-codex.git
 ```
 
@@ -90,6 +92,8 @@ answering. For this project, the key files include:
 - `matter-gauge-observables-from-finite-capacity-causal-networks/docs/matter_gauge_observables_theorem.md`
 - `particle-excitation-observables-from-finite-capacity-causal-networks/README.md`
 - `particle-excitation-observables-from-finite-capacity-causal-networks/docs/particle_excitation_observables_theorem.md`
+- `standard-model-candidate-observables-from-finite-capacity-causal-networks/README.md`
+- `standard-model-candidate-observables-from-finite-capacity-causal-networks/docs/standard_model_candidate_observables_theorem.md`
 
 ## How To Adapt This Pattern
 
