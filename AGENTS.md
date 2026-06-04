@@ -14,6 +14,7 @@ Primary repositories under `/Users/charlie/UnifiedFieldTheoryResearch`:
 - `higher-dimensional-geometry-recovery/`: Paper 2 skeleton for higher-dimensional recovery from the frozen Paper 1 result. Key files: `README.md`, `UPSTREAM-CORE.json`, `docs/higher_dimensional_geometry_theorem.md`, `GPD/formal/FiniteCapacity/HigherDimGeometry.lean`.
 - `curvature-from-finite-capacity-causal-networks/`: Paper 3 skeleton for network-native curvature recovery from the closed Paper 2 result. Key files: `README.md`, `UPSTREAM-PAPERS.json`, `docs/network_curvature_theorem.md`, `GPD/formal/FiniteCapacity/NetworkCurvature.lean`.
 - `gravitational-dynamics-from-finite-capacity-causal-networks/`: Paper 4 skeleton for network-native gravitational-dynamics or field-law analogues from the closed Paper 3 curvature result. Key files: `README.md`, `UPSTREAM-PAPERS.json`, `docs/gravitational_dynamics_theorem.md`, `GPD/formal/FiniteCapacity/GravitationalDynamics.lean`.
+- `quantum-compatible-local-dynamics-from-finite-capacity-causal-networks/`: Paper 5 skeleton for quantum-compatible local dynamics from the closed Paper 4 result. Key files: `README.md`, `UPSTREAM-PAPERS.json`, `docs/quantum_compatible_local_dynamics_theorem.md`, `GPD/formal/FiniteCapacity/QuantumCompatibleLocalDynamics.lean`.
 - `unified-field-theory-codex/`: this meta guide workspace.
 
 Respect each child repository’s own `AGENTS.md` before editing it.
@@ -31,6 +32,8 @@ Use repository-local commands from the relevant child repo:
 - `cd curvature-from-finite-capacity-causal-networks && make lean-build`: Paper 3 Lean scaffold verification.
 - `cd gravitational-dynamics-from-finite-capacity-causal-networks && make test-fast`: Paper 4 guard checks.
 - `cd gravitational-dynamics-from-finite-capacity-causal-networks && make lean-build`: Paper 4 Lean scaffold verification.
+- `cd quantum-compatible-local-dynamics-from-finite-capacity-causal-networks && make test-fast`: Paper 5 guard checks.
+- `cd quantum-compatible-local-dynamics-from-finite-capacity-causal-networks && make lean-build`: Paper 5 Lean scaffold verification.
 
 Run full suites only before broad promotion, proof-log updates, or shared-kernel changes.
 
@@ -40,9 +43,9 @@ The core repo is Rust-only for runtime, simulators, validators, theorem gates, e
 
 ## Research Planning Guidelines
 
-Maintain the distinction between conditional mathematical progress and physical nature-level claims. The internal conditional theorem in `finite-capacity-causal-geometry/` is recorded as complete under the Lean/fail-closed audit surface; physical promotion remains blocked by OBL-006 external evidence. `higher-dimensional-geometry-recovery/` closes the named Paper 2 conditional theorem for an explicit finite three-axis package at HDG-027 while remaining non-physical and non-unified. `curvature-from-finite-capacity-causal-networks/` closes the conditional Paper 3 curvature certificate at CURV-007 while remaining non-physical and non-unified. `gravitational-dynamics-from-finite-capacity-causal-networks/` starts Paper 4 with DYN-001 through DYN-008 and currently closes only DYN-001.
+Maintain the distinction between conditional mathematical progress and physical nature-level claims. The internal conditional theorem in `finite-capacity-causal-geometry/` is recorded as complete under the Lean/fail-closed audit surface; physical promotion remains blocked by OBL-006 external evidence. `higher-dimensional-geometry-recovery/` closes the named Paper 2 conditional theorem for an explicit finite three-axis package at HDG-027 while remaining non-physical and non-unified. `curvature-from-finite-capacity-causal-networks/` closes the conditional Paper 3 curvature certificate at CURV-007 while remaining non-physical and non-unified. `gravitational-dynamics-from-finite-capacity-causal-networks/` closes the conditional Paper 4 dynamics certificate at DYN-008 while remaining non-physical and non-unified. `quantum-compatible-local-dynamics-from-finite-capacity-causal-networks/` starts Paper 5 with QLD-001 closed as an upstream-binding and claim-boundary scaffold only.
 
-Favor next steps that close named obligations, reduce ambiguity, produce external-review evidence, or advance the active paper frontier. For Paper 4, the strongest first move is DYN-002: define a network-native source/update-flow observable without importing continuum stress-energy, matter fields, gauge fields, quantum dynamics, a background metric, connection, coordinate chart, Einstein-equation input, or fit shortcut. Avoid adding wrappers, aliases, catalogs, or hardening layers unless a concrete missing dependency or regression is identified.
+Favor next steps that close named obligations, reduce ambiguity, produce external-review evidence, or advance the active paper frontier. For Paper 5, the strongest first move is QLD-002: define a finite quantum-information capacity observable without importing continuum quantum field theory, external Hilbert bundles, matter fields, gauge fields, physical quantum dynamics, simulation-only signals, or fit shortcuts. Avoid adding wrappers, aliases, catalogs, or hardening layers unless a concrete missing dependency or regression is identified.
 
 Use `skills/theorem-ladder-research/SKILL.md` when a future Codex run needs the reusable proof-ladder workflow distilled from `finite-capacity-causal-geometry/`, especially for new paper rungs that should avoid rereading the whole Paper 1 repo.
 
