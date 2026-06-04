@@ -1,0 +1,4 @@
+interface:
+  display_name: "Theorem Ladder Research"
+  short_description: "Advance theorem papers through fail-closed rungs."
+  default_prompt: "Use $theorem-ladder-research to advance the current theorem paper one verified rung at a time."

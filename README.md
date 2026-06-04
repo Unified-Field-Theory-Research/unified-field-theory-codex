@@ -10,6 +10,11 @@ repositories and answer program-level questions such as:
 - What is the highest-leverage next research step?
 - Which repo should be edited or audited next?
 
+It also contains a reusable theorem-ladder skill and a public stack summary:
+
+- [Theorem Proving Stack](docs/theorem-proving-stack.md)
+- [`skills/theorem-ladder-research/SKILL.md`](skills/theorem-ladder-research/SKILL.md)
+
 ## Expected Local Layout
 
 Use this repository inside a local root folder named:
@@ -79,6 +84,18 @@ To reuse the architecture for another research program:
 The important idea is separation of levels: child repos own implementation and
 proof details; the meta workspace owns navigation, synthesis, and next-step
 planning.
+
+## Reusable Theorem-Ladder Skill
+
+For new papers, point Codex at:
+
+```text
+skills/theorem-ladder-research/SKILL.md
+```
+
+This skill summarizes the finite-capacity proof architecture: named rungs,
+Rust fail-closed gates, Lean/Lake proof certificates, GPD state ledgers, proof
+logs, verification commands, and commit-after-each-rung discipline.
 
 ## Claim Boundary
 

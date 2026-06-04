@@ -20,9 +20,9 @@ Respect each child repository’s own `AGENTS.md` before editing it.
 
 Use repository-local commands from the relevant child repo:
 
-- `cd finite-capacity && make test-fast`: fast theorem-ladder smoke check.
-- `cd finite-capacity && make test TEST_FILTER=<rust_test_name>`: focused Rust regression.
-- `cd finite-capacity && make rust-build && make rust-test`: Rust implementation checks.
+- `cd finite-capacity-causal-geometry && make test-fast`: fast theorem-ladder smoke check.
+- `cd finite-capacity-causal-geometry && make test TEST_FILTER=<rust_test_name>`: focused Rust regression.
+- `cd finite-capacity-causal-geometry && make rust-build && make rust-test`: Rust implementation checks.
 - `cd higher-dimensional-geometry-recovery && make test-fast`: Paper 2 guard checks.
 - `cd higher-dimensional-geometry-recovery && make lean-build`: Lean scaffold verification.
 
@@ -37,6 +37,8 @@ The core repo is Rust-only for runtime, simulators, validators, theorem gates, e
 Maintain the distinction between conditional mathematical progress and physical nature-level claims. The internal conditional theorem in `finite-capacity-causal-geometry/` is recorded as complete under the Lean/fail-closed audit surface; physical promotion remains blocked by OBL-006 external evidence. `higher-dimensional-geometry-recovery/` is non-promoting and starts with HDG-001 through HDG-007.
 
 Favor next steps that close named obligations, reduce ambiguity, produce external-review evidence, or advance Paper 2 definitions. Avoid adding wrappers, aliases, catalogs, or hardening layers unless a concrete missing dependency or regression is identified.
+
+Use `skills/theorem-ladder-research/SKILL.md` when a future Codex run needs the reusable proof-ladder workflow distilled from `finite-capacity-causal-geometry/`, especially for new paper rungs that should avoid rereading the whole Paper 1 repo.
 
 ## Commit & Pull Request Guidelines
 
