@@ -30,6 +30,7 @@ The intended shape is:
   finite-capacity-causal-geometry/
   higher-dimensional-geometry-recovery/
   curvature-from-finite-capacity-causal-networks/
+  gravitational-dynamics-from-finite-capacity-causal-networks/
   unified-field-theory-codex/
 ```
 
@@ -48,6 +49,7 @@ cd ~/UnifiedFieldTheoryResearch
 git clone https://github.com/Unified-Field-Theory-Research/finite-capacity-causal-geometry.git
 git clone https://github.com/Unified-Field-Theory-Research/higher-dimensional-geometry-recovery.git
 git clone https://github.com/Unified-Field-Theory-Research/curvature-from-finite-capacity-causal-networks.git
+git clone https://github.com/Unified-Field-Theory-Research/gravitational-dynamics-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-codex.git
 ```
 
@@ -74,6 +76,8 @@ answering. For this project, the key files include:
 - `higher-dimensional-geometry-recovery/docs/higher_dimensional_geometry_theorem.md`
 - `curvature-from-finite-capacity-causal-networks/README.md`
 - `curvature-from-finite-capacity-causal-networks/docs/network_curvature_theorem.md`
+- `gravitational-dynamics-from-finite-capacity-causal-networks/README.md`
+- `gravitational-dynamics-from-finite-capacity-causal-networks/docs/gravitational_dynamics_theorem.md`
 
 ## How To Adapt This Pattern
 
