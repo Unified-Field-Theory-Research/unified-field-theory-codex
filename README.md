@@ -22,9 +22,9 @@ The intended shape is:
 
 ```text
 ~/UnifiedFieldTheoryResearch/
-  finite-capacity/
-  higher-dimensional-geometry/
-  unifed-field-theory-codex/
+  finite-capacity-causal-geometry/
+  higher-dimensional-geometry-recovery/
+  unified-field-theory-codex/
 ```
 
 Each research repository should keep its own `AGENTS.md`, `README.md`, roadmap,
@@ -39,9 +39,9 @@ Create the root folder, then clone the research repositories into it:
 mkdir -p ~/UnifiedFieldTheoryResearch
 cd ~/UnifiedFieldTheoryResearch
 
-git clone https://github.com/Unified-Field-Theory-Research/finite-capacity-causal-geometry.git finite-capacity
-git clone https://github.com/Unified-Field-Theory-Research/higher-dimensional-geometry.git
-git clone https://github.com/Unified-Field-Theory-Research/unifed-field-theory-codex.git
+git clone https://github.com/Unified-Field-Theory-Research/finite-capacity-causal-geometry.git
+git clone https://github.com/Unified-Field-Theory-Research/higher-dimensional-geometry-recovery.git
+git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-codex.git
 ```
 
 If your research program uses different repo names, keep the same pattern:
@@ -49,7 +49,7 @@ one root folder, multiple sibling research repos, and one meta Codex workspace.
 
 ## Using Codex At The Macro Level
 
-Open Codex from `unifed-field-theory-codex/` and ask questions that require
+Open Codex from `unified-field-theory-codex/` and ask questions that require
 cross-repository context, for example:
 
 ```text
@@ -59,12 +59,12 @@ Look across ~/UnifiedFieldTheoryResearch and tell me what we should do next.
 Codex should inspect each child repository's active state documents before
 answering. For this project, the key files include:
 
-- `finite-capacity/AGENTS.md`
-- `finite-capacity/GPD/STATE.md`
-- `finite-capacity/GPD/ROADMAP.md`
-- `finite-capacity/GPD/frontier-status.md`
-- `higher-dimensional-geometry/README.md`
-- `higher-dimensional-geometry/docs/higher_dimensional_geometry_theorem.md`
+- `finite-capacity-causal-geometry/AGENTS.md`
+- `finite-capacity-causal-geometry/GPD/STATE.md`
+- `finite-capacity-causal-geometry/GPD/ROADMAP.md`
+- `finite-capacity-causal-geometry/GPD/frontier-status.md`
+- `higher-dimensional-geometry-recovery/README.md`
+- `higher-dimensional-geometry-recovery/docs/higher_dimensional_geometry_theorem.md`
 
 ## How To Adapt This Pattern
 
