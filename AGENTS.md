@@ -12,6 +12,7 @@ Primary repositories under `/Users/charlie/UnifiedFieldTheoryResearch`:
 
 - `finite-capacity-causal-geometry/`: Paper 1/core finite-capacity causal-network theorem program. Key files: `AGENTS.md`, `README.md`, `GPD/STATE.md`, `GPD/ROADMAP.md`, `GPD/frontier-status.md`, `docs/proof_log.md`.
 - `higher-dimensional-geometry-recovery/`: Paper 2 skeleton for higher-dimensional recovery from the frozen Paper 1 result. Key files: `README.md`, `UPSTREAM-CORE.json`, `docs/higher_dimensional_geometry_theorem.md`, `GPD/formal/FiniteCapacity/HigherDimGeometry.lean`.
+- `curvature-from-finite-capacity-causal-networks/`: Paper 3 skeleton for network-native curvature recovery from the closed Paper 2 result. Key files: `README.md`, `UPSTREAM-PAPERS.json`, `docs/network_curvature_theorem.md`, `GPD/formal/FiniteCapacity/NetworkCurvature.lean`.
 - `unified-field-theory-codex/`: this meta guide workspace.
 
 Respect each child repository’s own `AGENTS.md` before editing it.
@@ -25,6 +26,8 @@ Use repository-local commands from the relevant child repo:
 - `cd finite-capacity-causal-geometry && make rust-build && make rust-test`: Rust implementation checks.
 - `cd higher-dimensional-geometry-recovery && make test-fast`: Paper 2 guard checks.
 - `cd higher-dimensional-geometry-recovery && make lean-build`: Lean scaffold verification.
+- `cd curvature-from-finite-capacity-causal-networks && make test-fast`: Paper 3 guard checks.
+- `cd curvature-from-finite-capacity-causal-networks && make lean-build`: Paper 3 Lean scaffold verification.
 
 Run full suites only before broad promotion, proof-log updates, or shared-kernel changes.
 
@@ -34,9 +37,9 @@ The core repo is Rust-only for runtime, simulators, validators, theorem gates, e
 
 ## Research Planning Guidelines
 
-Maintain the distinction between conditional mathematical progress and physical nature-level claims. The internal conditional theorem in `finite-capacity-causal-geometry/` is recorded as complete under the Lean/fail-closed audit surface; physical promotion remains blocked by OBL-006 external evidence. `higher-dimensional-geometry-recovery/` is non-promoting and starts with HDG-001 through HDG-007.
+Maintain the distinction between conditional mathematical progress and physical nature-level claims. The internal conditional theorem in `finite-capacity-causal-geometry/` is recorded as complete under the Lean/fail-closed audit surface; physical promotion remains blocked by OBL-006 external evidence. `higher-dimensional-geometry-recovery/` closes the named Paper 2 conditional theorem for an explicit finite three-axis package at HDG-027 while remaining non-physical and non-unified. `curvature-from-finite-capacity-causal-networks/` is non-promoting and starts with CURV-001 through CURV-007.
 
-Favor next steps that close named obligations, reduce ambiguity, produce external-review evidence, or advance Paper 2 definitions. Avoid adding wrappers, aliases, catalogs, or hardening layers unless a concrete missing dependency or regression is identified.
+Favor next steps that close named obligations, reduce ambiguity, produce external-review evidence, or advance the active paper frontier. For Paper 3, the strongest first move is CURV-002: define a network-native curvature observable without importing a microscopic manifold, connection, background metric, coordinate chart, continuum curvature tensor, or fit shortcut. Avoid adding wrappers, aliases, catalogs, or hardening layers unless a concrete missing dependency or regression is identified.
 
 Use `skills/theorem-ladder-research/SKILL.md` when a future Codex run needs the reusable proof-ladder workflow distilled from `finite-capacity-causal-geometry/`, especially for new paper rungs that should avoid rereading the whole Paper 1 repo.
 
