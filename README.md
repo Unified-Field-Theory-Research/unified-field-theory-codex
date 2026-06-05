@@ -36,6 +36,7 @@ The intended shape is:
   particle-excitation-observables-from-finite-capacity-causal-networks/
   standard-model-candidate-observables-from-finite-capacity-causal-networks/
   observed-catalog-comparison-observables-from-finite-capacity-causal-networks/
+  external-evidence-manifest-from-finite-capacity-causal-networks/
   unified-field-theory-codex/
 ```
 
@@ -60,6 +61,7 @@ git clone https://github.com/Unified-Field-Theory-Research/matter-gauge-observab
 git clone https://github.com/Unified-Field-Theory-Research/particle-excitation-observables-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/standard-model-candidate-observables-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/observed-catalog-comparison-observables-from-finite-capacity-causal-networks.git
+git clone https://github.com/Unified-Field-Theory-Research/external-evidence-manifest-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-codex.git
 ```
 
@@ -98,6 +100,8 @@ answering. For this project, the key files include:
 - `standard-model-candidate-observables-from-finite-capacity-causal-networks/docs/standard_model_candidate_observables_theorem.md`
 - `observed-catalog-comparison-observables-from-finite-capacity-causal-networks/README.md`
 - `observed-catalog-comparison-observables-from-finite-capacity-causal-networks/docs/observed_catalog_comparison_observables_theorem.md`
+- `external-evidence-manifest-from-finite-capacity-causal-networks/README.md`
+- `external-evidence-manifest-from-finite-capacity-causal-networks/docs/external_evidence_manifest_theorem.md`
 
 ## How To Adapt This Pattern
 
