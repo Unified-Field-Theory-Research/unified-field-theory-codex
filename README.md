@@ -40,6 +40,7 @@ The intended shape is:
   external-validation-readout-from-finite-capacity-causal-networks/
   physical-promotion-gate-from-finite-capacity-causal-networks/
   external-physical-evidence-intake-from-finite-capacity-causal-networks/
+  discriminating-benchmarks-from-finite-capacity-causal-networks/
   unified-field-theory-codex/
 ```
 
@@ -68,6 +69,7 @@ git clone https://github.com/Unified-Field-Theory-Research/external-evidence-man
 git clone https://github.com/Unified-Field-Theory-Research/external-validation-readout-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/physical-promotion-gate-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/external-physical-evidence-intake-from-finite-capacity-causal-networks.git
+git clone https://github.com/Unified-Field-Theory-Research/discriminating-benchmarks-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-codex.git
 ```
 
@@ -114,6 +116,8 @@ answering. For this project, the key files include:
 - `physical-promotion-gate-from-finite-capacity-causal-networks/docs/physical_promotion_gate_theorem.md`
 - `external-physical-evidence-intake-from-finite-capacity-causal-networks/README.md`
 - `external-physical-evidence-intake-from-finite-capacity-causal-networks/docs/external_physical_evidence_intake_theorem.md`
+- `discriminating-benchmarks-from-finite-capacity-causal-networks/README.md`
+- `discriminating-benchmarks-from-finite-capacity-causal-networks/docs/discriminating_benchmarks_theorem.md`
 
 ## Current Roadmap
 
@@ -139,8 +143,9 @@ track:
 17. Paper 17: physical promotion attempt.
 18. Paper 18: unified field theory candidate synthesis.
 
-Papers 1-12 are closed as internal conditional packages, not as physical
-validation. Paper 13 is open with `EPEI-001` closed and `EPEI-002` active.
+Papers 1-13 are closed as internal conditional packages, not as physical
+validation or prediction success. Paper 14 is open with `DBM-001` closed and
+`DBM-002` active.
 
 ## How To Adapt This Pattern
 
