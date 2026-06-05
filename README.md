@@ -39,6 +39,7 @@ The intended shape is:
   external-evidence-manifest-from-finite-capacity-causal-networks/
   external-validation-readout-from-finite-capacity-causal-networks/
   physical-promotion-gate-from-finite-capacity-causal-networks/
+  external-physical-evidence-intake-from-finite-capacity-causal-networks/
   unified-field-theory-codex/
 ```
 
@@ -66,6 +67,7 @@ git clone https://github.com/Unified-Field-Theory-Research/observed-catalog-comp
 git clone https://github.com/Unified-Field-Theory-Research/external-evidence-manifest-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/external-validation-readout-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/physical-promotion-gate-from-finite-capacity-causal-networks.git
+git clone https://github.com/Unified-Field-Theory-Research/external-physical-evidence-intake-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-codex.git
 ```
 
@@ -110,6 +112,35 @@ answering. For this project, the key files include:
 - `external-validation-readout-from-finite-capacity-causal-networks/docs/external_validation_readout_theorem.md`
 - `physical-promotion-gate-from-finite-capacity-causal-networks/README.md`
 - `physical-promotion-gate-from-finite-capacity-causal-networks/docs/physical_promotion_gate_theorem.md`
+- `external-physical-evidence-intake-from-finite-capacity-causal-networks/README.md`
+- `external-physical-evidence-intake-from-finite-capacity-causal-networks/docs/external_physical_evidence_intake_theorem.md`
+
+## Current Roadmap
+
+The active research ladder now runs through the external physical-promotion
+track:
+
+1. Paper 1: internal conditional emergence theorem.
+2. Paper 2: higher-dimensional geometry recovery.
+3. Paper 3: curvature from finite-capacity causal networks.
+4. Paper 4: gravitational dynamics from finite-capacity causal networks.
+5. Paper 5: quantum-compatible local dynamics.
+6. Paper 6: matter/gauge observables.
+7. Paper 7: particle-excitation observables.
+8. Paper 8: Standard-Model-candidate observables.
+9. Paper 9: observed-catalog comparison observables.
+10. Paper 10: external evidence manifests.
+11. Paper 11: external validation readouts.
+12. Paper 12: physical-promotion gates.
+13. Paper 13: external physical evidence intake.
+14. Paper 14: discriminating benchmarks.
+15. Paper 15: prediction and falsification protocols.
+16. Paper 16: external review and reproduction certificates.
+17. Paper 17: physical promotion attempt.
+18. Paper 18: unified field theory candidate synthesis.
+
+Papers 1-12 are closed as internal conditional packages, not as physical
+validation. Paper 13 is open with `EPEI-001` closed and `EPEI-002` active.
 
 ## How To Adapt This Pattern
 
