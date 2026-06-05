@@ -44,6 +44,7 @@ The intended shape is:
   prediction-and-falsification-protocols-from-finite-capacity-causal-networks/
   external-review-and-reproduction-certificates-from-finite-capacity-causal-networks/
   physical-promotion-attempt-from-finite-capacity-causal-networks/
+  unified-field-theory-candidate-synthesis-from-finite-capacity-causal-networks/
   unified-field-theory-codex/
 ```
 
@@ -76,6 +77,7 @@ git clone https://github.com/Unified-Field-Theory-Research/discriminating-benchm
 git clone https://github.com/Unified-Field-Theory-Research/prediction-and-falsification-protocols-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/external-review-and-reproduction-certificates-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/physical-promotion-attempt-from-finite-capacity-causal-networks.git
+git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-candidate-synthesis-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-codex.git
 ```
 
@@ -130,6 +132,8 @@ answering. For this project, the key files include:
 - `external-review-and-reproduction-certificates-from-finite-capacity-causal-networks/docs/external_review_reproduction_certificates_theorem.md`
 - `physical-promotion-attempt-from-finite-capacity-causal-networks/README.md`
 - `physical-promotion-attempt-from-finite-capacity-causal-networks/docs/physical_promotion_attempt_theorem.md`
+- `unified-field-theory-candidate-synthesis-from-finite-capacity-causal-networks/README.md`
+- `unified-field-theory-candidate-synthesis-from-finite-capacity-causal-networks/docs/unified_field_theory_candidate_synthesis_theorem.md`
 
 ## Current Roadmap
 
@@ -155,10 +159,11 @@ track:
 17. Paper 17: physical promotion attempt.
 18. Paper 18: unified field theory candidate synthesis.
 
-Papers 1-16 are closed as internal conditional packages, not as physical
+Papers 1-17 are closed as internal conditional packages, not as physical
 validation, review acceptance, reproduction success, physical promotion attempt
-success, or physical promotion. Paper 17 is open with `PPA-001` closed and
-`PPA-002` active.
+success, physical promotion, candidate synthesis success, or a completed
+unified field theory. Paper 18 is open with `UFTS-001` closed and `UFTS-002`
+active.
 
 ## How To Adapt This Pattern
 
