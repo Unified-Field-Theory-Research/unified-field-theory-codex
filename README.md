@@ -42,6 +42,7 @@ The intended shape is:
   external-physical-evidence-intake-from-finite-capacity-causal-networks/
   discriminating-benchmarks-from-finite-capacity-causal-networks/
   prediction-and-falsification-protocols-from-finite-capacity-causal-networks/
+  external-review-and-reproduction-certificates-from-finite-capacity-causal-networks/
   unified-field-theory-codex/
 ```
 
@@ -72,6 +73,7 @@ git clone https://github.com/Unified-Field-Theory-Research/physical-promotion-ga
 git clone https://github.com/Unified-Field-Theory-Research/external-physical-evidence-intake-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/discriminating-benchmarks-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/prediction-and-falsification-protocols-from-finite-capacity-causal-networks.git
+git clone https://github.com/Unified-Field-Theory-Research/external-review-and-reproduction-certificates-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-codex.git
 ```
 
@@ -122,6 +124,8 @@ answering. For this project, the key files include:
 - `discriminating-benchmarks-from-finite-capacity-causal-networks/docs/discriminating_benchmarks_theorem.md`
 - `prediction-and-falsification-protocols-from-finite-capacity-causal-networks/README.md`
 - `prediction-and-falsification-protocols-from-finite-capacity-causal-networks/docs/prediction_and_falsification_protocols_theorem.md`
+- `external-review-and-reproduction-certificates-from-finite-capacity-causal-networks/README.md`
+- `external-review-and-reproduction-certificates-from-finite-capacity-causal-networks/docs/external_review_reproduction_certificates_theorem.md`
 
 ## Current Roadmap
 
@@ -147,9 +151,9 @@ track:
 17. Paper 17: physical promotion attempt.
 18. Paper 18: unified field theory candidate synthesis.
 
-Papers 1-14 are closed as internal conditional packages, not as physical
-validation or prediction success. Paper 15 is open with `PFP-001` closed and
-`PFP-002` active.
+Papers 1-15 are closed as internal conditional packages, not as physical
+validation, review acceptance, or reproduction success. Paper 16 is open with
+`ERRC-001` closed and `ERRC-002` active.
 
 ## How To Adapt This Pattern
 
