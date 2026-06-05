@@ -45,6 +45,7 @@ The intended shape is:
   external-review-and-reproduction-certificates-from-finite-capacity-causal-networks/
   physical-promotion-attempt-from-finite-capacity-causal-networks/
   unified-field-theory-candidate-synthesis-from-finite-capacity-causal-networks/
+  unified-field-theory-physical-promotion-dossier-from-finite-capacity-causal-networks/
   unified-field-theory-codex/
 ```
 
@@ -78,6 +79,7 @@ git clone https://github.com/Unified-Field-Theory-Research/prediction-and-falsif
 git clone https://github.com/Unified-Field-Theory-Research/external-review-and-reproduction-certificates-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/physical-promotion-attempt-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-candidate-synthesis-from-finite-capacity-causal-networks.git
+git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-physical-promotion-dossier-from-finite-capacity-causal-networks.git
 git clone https://github.com/Unified-Field-Theory-Research/unified-field-theory-codex.git
 ```
 
@@ -134,6 +136,8 @@ answering. For this project, the key files include:
 - `physical-promotion-attempt-from-finite-capacity-causal-networks/docs/physical_promotion_attempt_theorem.md`
 - `unified-field-theory-candidate-synthesis-from-finite-capacity-causal-networks/README.md`
 - `unified-field-theory-candidate-synthesis-from-finite-capacity-causal-networks/docs/unified_field_theory_candidate_synthesis_theorem.md`
+- `unified-field-theory-physical-promotion-dossier-from-finite-capacity-causal-networks/README.md`
+- `unified-field-theory-physical-promotion-dossier-from-finite-capacity-causal-networks/docs/unified_field_theory_physical_promotion_dossier.md`
 
 ## Current Roadmap
 
@@ -158,12 +162,16 @@ track:
 16. Paper 16: external review and reproduction certificates.
 17. Paper 17: physical promotion attempt.
 18. Paper 18: unified field theory candidate synthesis.
+19. Physical promotion dossier: candidate seed, prediction/falsification rows,
+    external evidence/reproduction rows, and fail-closed promotion verdict.
 
-Papers 1-17 are closed as internal conditional packages, not as physical
+Papers 1-18 are closed as internal conditional packages, not as physical
 validation, review acceptance, reproduction success, physical promotion attempt
 success, physical promotion, candidate synthesis success, or a completed
-unified field theory. Paper 18 is open with `UFTS-001` closed and `UFTS-002`
-active.
+unified field theory. The physical promotion dossier is closed as a scaffold
+through `UFTPD-006`, but the actual physical-promotion verdict remains blocked
+until prediction success, independent reproduction, external review acceptance,
+empirical adequacy, and physical validation are supplied.
 
 ## How To Adapt This Pattern
 
