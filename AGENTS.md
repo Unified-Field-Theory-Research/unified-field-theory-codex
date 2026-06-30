@@ -79,6 +79,32 @@ Use repository-local commands from the relevant child repo:
 
 Run full suites only before broad promotion, proof-log updates, or shared-kernel changes.
 
+## Codex Skill & Tool Routing
+
+For UFT research work, use the repo-local skills as durable workflow guidance:
+
+- Use `.agents/skills/rust-compute-first/SKILL.md` before adding computation,
+  simulation, search, graph algorithms, validators, benchmark harnesses, data
+  pipelines, or solver orchestration. Prefer Rust crates and binaries wherever
+  practical.
+- Use `skills/theorem-ladder-research/SKILL.md` for theorem-rung work, proof
+  obligations, fail-closed Rust gates, Lean/Lake certificates, proof logs, GPD
+  state updates, and claim-boundary audits.
+- Use installed literature skills such as `literature-search-arxiv` and
+  `semantic-scholar` when external paper context, precedent, or comparison is
+  needed.
+- Use `rust-call-graph` for Rust call hierarchy and dependency-impact analysis
+  before changing shared Rust gates or compute kernels.
+- Use Context7 MCP for current third-party package documentation when crate,
+  solver, or API behavior matters.
+
+Treat Z3/cvc5, symbolic experiments, simulations, and literature lookups as
+diagnostic unless the accepted result is reproduced or audited by a Rust gate,
+Lean proof lane, or recorded fail-closed evidence artifact. Do not add Python,
+CAS, or Mathematica/Wolfram-dependent tooling to these repos unless a concrete
+missing dependency justifies it and the result remains non-authoritative until
+Rust/Lean/evidence gates check it.
+
 ## Coding Style & Naming Conventions
 
 The core repo is Rust-only for runtime, simulators, validators, theorem gates, experiments, tests, and tooling. Do not add Python artifacts to `finite-capacity-causal-geometry/`. Use Lean only in documented formal lanes. Keep theorem, obligation, and guard names explicit and searchable, matching patterns such as `obl-006-*`, `*_theorem.md`, and `*_gate.rs`.
