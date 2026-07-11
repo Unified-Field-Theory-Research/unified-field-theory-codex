@@ -73,6 +73,21 @@ The proof workflow is designed to prevent false promotion:
 - External review and reproduction are separate evidence tracks, not internal
   proof artifacts.
 
+## Rust-First Compute
+
+Use Rust crates and binaries for computation wherever practical. Rust is the
+default for finite-state enumeration, graph algorithms, discrete dynamics,
+search, validators, artifact generators, reproducibility manifests, benchmarks,
+and SMT/SAT orchestration. Python and CAS tools may still be useful for
+literature APIs or exploratory symbolic checks, but their outputs are
+diagnostic until a Rust gate, Lean proof, or explicit fail-closed audit
+reproduces the relevant claim.
+
+Preferred Rust crates include `petgraph`, `fixedbitset`, `bitvec`, `rayon`,
+`nalgebra`, `ndarray`, `faer`, `sprs`, `egg`, `serde`, `serde_json`, `clap`,
+`proptest`, `insta`, and `criterion`. Use external `z3`/`cvc5` binaries or
+stable Rust wrappers for solver-backed bounded checks.
+
 ## Default Verification Shape
 
 For a new paper repo, start with:

@@ -36,6 +36,35 @@ verification commands, or artifact roles.
    and Lean build if a Lean lane exists.
 9. Commit and push immediately after each closed rung or useful obstruction.
 
+## Rust-First Compute Policy
+
+Use Rust crates and binaries for computational work wherever practical:
+finite-state enumeration, graph algorithms, search, simulation, validators,
+SMT orchestration, reproducibility manifests, benchmark harnesses, and data
+pipeline steps that affect theorem gates. Keep Python to literature APIs,
+one-off exploratory notebooks, or external tools that have no reasonable Rust
+equivalent.
+
+Prefer these Rust packages before introducing a Python dependency:
+
+- graphs and finite structures: `petgraph`, `indexmap`, `fixedbitset`,
+  `bitvec`, `smallvec`;
+- parallel enumeration and search: `rayon`, `crossbeam`, `itertools`;
+- linear algebra and numerics: `nalgebra`, `ndarray`, `faer`, `sprs`,
+  `rug`;
+- symbolic/equational and rewrite experiments: `egg`, `symbolica` when
+  appropriate;
+- SAT/SMT orchestration: `z3`, `rsmt2`, external `z3`/`cvc5` command wrappers;
+- serialization and audit outputs: `serde`, `serde_json`, `serde_with`,
+  `csv`;
+- CLI and reproducibility tools: `clap`, `anyhow`, `thiserror`, `sha2`,
+  `blake3`;
+- testing and performance: `proptest`, `insta`, `criterion`, `cargo-nextest`.
+
+When a non-Rust tool is used for compute, record why Rust was not suitable and
+keep the result non-authoritative until a Rust/Lean gate reproduces or audits
+the relevant claim.
+
 ## Claim Discipline
 
 - Never treat simulation, search, curve fit, generated prose, or a Lean

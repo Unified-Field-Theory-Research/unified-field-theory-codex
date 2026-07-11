@@ -14,6 +14,7 @@ It also contains a reusable theorem-ladder skill and a public stack summary:
 
 - [Theorem Proving Stack](docs/theorem-proving-stack.md)
 - [`skills/theorem-ladder-research/SKILL.md`](skills/theorem-ladder-research/SKILL.md)
+- [`.agents/skills/rust-compute-first/SKILL.md`](.agents/skills/rust-compute-first/SKILL.md)
 
 ## Expected Local Layout
 
@@ -198,6 +199,16 @@ skills/theorem-ladder-research/SKILL.md
 This skill summarizes the finite-capacity proof architecture: named rungs,
 Rust fail-closed gates, Lean/Lake proof certificates, GPD state ledgers, proof
 logs, verification commands, and commit-after-each-rung discipline.
+
+## Rust-First Compute Policy
+
+For computation-heavy work, prefer Rust crates and binaries before Python:
+finite-state enumeration, graph algorithms, discrete dynamics, validators,
+artifact generation, benchmark harnesses, and SMT/SAT orchestration should be
+implemented in Rust whenever practical. Python and CAS tools are acceptable for
+literature APIs or exploratory checks, but proof-adjacent results should be
+reproduced by Rust gates, Lean proofs, or explicit fail-closed audits before
+they can influence promotion.
 
 ## Claim Boundary
 
